@@ -1,0 +1,108 @@
+body{
+  background-color: #fafafa12;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3{
+  font-family: 'Nunito Sans', sans-serif;
+  color: #93B5C6;
+  font-size: 28px;
+  line-height: 21px;
+  font-weight: 600;
+}
+
+/* btn-profile */
+.btn-green{
+  padding: 10px;
+  background-color: palegreen;
+  /* margin: 10px; */
+  border-radius: 10px;
+}
+
+.btn-green{
+  color: #BFD8B8;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* btn-principal */
+.btn-green:hover{
+  font-size: 30px;
+}
+
+.about-me{
+  padding: 20px 0px;
+}
+
+/* photo */
+.profile-photo{
+  width: 100px;
+  border-radius: 50%;
+}
+
+
+/* list */
+.list-media {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-media > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+/* box-model */
+.container{
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card{
+  background-color: #ffe8e83b;
+  border: 1px solid gray;
+  border-radius: 20px;
+  box-shadow: 2px 7px 8px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+
+/* icons-redes */
+.fab{
+  font-size: 25px;
+}
+/* colors-icons */
+.yellow{
+  color: yellow;
+}
+.orange{
+  color: orange;
+}
+.blue{
+  color: blue;
+}
+.red{
+  color: red;
+  font-size: 20px;
+
+}
+/* media-queries */
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
