@@ -18,17 +18,14 @@ h3{
 
 /* btn-profile */
 .btn-green{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
   padding: 10px;
   background-color: palegreen;
   /* margin: 10px; */
   border-radius: 10px;
-}
-
-.btn-green{
-  color: #BFD8B8;
-  font-size: 18px;
-  font-weight: 600;
-  text-decoration: none;
 }
 
 /* btn-principal */
@@ -36,8 +33,9 @@ h3{
   font-size: 30px;
 }
 
-.about-me{
-  padding: 20px 0px;
+.about-me p{
+  font-size: 18px;
+  font-weight: 500;
 }
 
 /* photo */
